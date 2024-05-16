@@ -1,6 +1,6 @@
 * {
-    box-sizing: border-box;
     margin: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -244,4 +244,47 @@ footer .container {
         padding-bottom: 0;
         padding-right: 20px;
     }
+
+    
+    #seleccion-1 .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #seleccion-1 .colum-2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+    }
+
+    #seleccion-1 h2 {
+        margin-top: 0px;
+    }
+
+    #seleccion-1 .img-container {
+        background-image: url(/src/img/1978.jpeg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
