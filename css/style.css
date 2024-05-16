@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: "Roboto", sans-serif;
@@ -140,3 +143,63 @@ header a:hover {
     background-position: center center; /*mantiene la imagen siempre centrada*/
 }
 
+#seleccion-1 .container {
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#seleccion-2 {
+    background-color: rgb(20,20,20);
+    text-align: center;
+    color: white;
+}
+
+#seleccion-2 .container {
+    padding: 50px 12px;
+}
+
+#seleccion-2 h2 {
+    margin-top: 0;
+    font-size: 3em;
+}
+
+#seleccion-2 p {
+    display: none;
+}
+
+.box {
+    background-repeat: no-repeat;/*hace quela imagen no se repita*/
+    background-size: cover; /*la imagen ocupa todo el espacio disponible, no me deja "lugares libres" */
+    background-position: center center; /*mantiene la imagen siempre centrada*/
+    padding: 50px 0px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+.box:first-child {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) /*gradiente para poder ver mejor el texto*/
+    ,url(/src/img/1978.jpeg);
+}
+
+.box:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) /*gradiente para poder ver mejor el texto*/
+    ,url(/src/img/1986-2.jpeg);
+}
+
+.box:last-child {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ) /*gradiente para poder ver mejor el texto*/
+    ,url(/src/img/2022.jpeg);
+}
