@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 html {
@@ -79,7 +80,7 @@ button:hover {
 }
 
 #button-1 {
-    font-size: 1.5em;
+    font-size: 2.3vw;
     background-color: blue;
 }
 
@@ -155,7 +156,7 @@ header a:hover {
 }
 
 #seleccion-2 .container {
-    padding: 50px 12px;
+    padding: 150px 12px;
 }
 
 #seleccion-2 h2 {
@@ -192,7 +193,7 @@ header a:hover {
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     ) /*gradiente para poder ver mejor el texto*/
-    ,url(/src/img/1986-2.jpeg);
+    ,url(/src/img/1986.jpg);
 }
 
 .box:last-child {
@@ -202,4 +203,45 @@ header a:hover {
         rgba(0,0,0,0.5)
     ) /*gradiente para poder ver mejor el texto*/
     ,url(/src/img/2022.jpeg);
+}
+
+footer {
+    background-color: #007bff;
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    font-weight: bold;
+}
+footer .container {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+@media (min-width: 768px) {
+
+
+
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 100; /* Asegurar que se superponga a otros elementos */
+    }
+
+    header .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav {
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
 }
