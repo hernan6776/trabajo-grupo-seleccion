@@ -184,6 +184,9 @@ button:hover {
     padding-bottom: 20px;
 }
 
+.colum-2 button {
+    margin-top: 25px;
+}
 
 /*SECCION 2*/
 
@@ -248,7 +251,9 @@ button:hover {
     ,url(/src/img/2022.jpeg);
 }
 
-
+.box button {
+    margin-top: 20px;
+}
 
 /*FOOTER*/
 
