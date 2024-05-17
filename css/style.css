@@ -182,10 +182,11 @@ button:hover {
 #seleccion-2 h2 {
     margin-top: 0;
     font-size: 3em;
+    background-size: cover
 }
 
 #seleccion-2 p {
-    display: none;
+    /* display: none; */
 }
 
 .box {
@@ -311,19 +312,26 @@ footer .container {
 
     /************CSS SECCION 2******************/
 
+
+
     #seleccion-2 .boxes {
-        
+        display: flex;
+        justify-content: center;
     }
 
+    #seleccion-2 p {
+        display: block;
+        margin-bottom: 30px;
+    }
 
+    #seleccion-2 .box {
+        padding: 30px;
+    }
 
-
-
-
-
-
-
-
+    #seleccion-2 h3 {
+        margin-top: 0;
+        padding-bottom: 25px;
+    }
 
 
 
